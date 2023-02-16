@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'back/getweather.dart';
 
-void main() {
+
+void main() async {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: WeatherScreen(),

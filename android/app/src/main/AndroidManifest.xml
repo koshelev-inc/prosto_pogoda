@@ -7,6 +7,9 @@
         android:label="pogoda_app_new"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data
+           android:name="com.google.android.gms.ads.APPLICATION_ID"
+           android:value="ca-app-pub-7184588275419012/1022988777"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
